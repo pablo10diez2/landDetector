@@ -1,0 +1,22 @@
+# Ignorar archivos de configuración de VSCode
+.vscode/
+
+# Ignorar archivos compilados
+*.class
+*.o
+*.exe
+
+# Ignorar entornos virtuales de Python
+venv/
+__pycache__/
+
+# Ignorar archivos de dependencias
+node_modules/
+*.log
+
+# Ignorar archivos de credenciales
+.env
+config/secrets.json
+
+# Ignorar carpeta de Data (3GB)
+LLM/DataML/*
