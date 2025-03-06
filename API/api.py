@@ -1,6 +1,7 @@
 import ee
 import requests
 
+
 # Autenticación e inicialización de Earth Engine
 ee.Authenticate()
 ee.Initialize(project='land-pablo-diez')
