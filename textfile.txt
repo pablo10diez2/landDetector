@@ -1,0 +1,13 @@
+STEPS FOR THE ML
+1)Crop images from 2448x2448 --> 2304x2304
+	Now 2304/256, by doing that we divide the images in 9x9 (81)
+	small pieces. The input of U-net would be (81, 256, 256, 3) for
+	each image. 81 because now each image is divided in 81 smaller ones,
+	256 height, 256 width and 3 because of the RGB of each pixel.
+
+2)Convert into numpy array (no need for one hot encoding)
+
+3)Prepare Y training:
+	Same crop and patches (9x9) but we need to do one hot encoding.
+	(81, 256, 256, num_classes).
+ 
