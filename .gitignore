@@ -19,4 +19,9 @@ node_modules/
 config/secrets.json
 
 # Ignorar carpeta de Data (3GB)
-LLM/dataML/*
+LLM/dataML/input/*
+LLM/dataML/output_rebuilt/*
+LLM/dataML/test/*
+LLM/dataML/train/*
+LLM/dataML/train_patched/*
+LLM/dataML/valid/*
